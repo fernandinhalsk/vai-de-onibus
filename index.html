@@ -3,54 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Folheto: App de Ônibus</title>
+  <title>App de Ônibus - Folheto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>🚌 App de Ônibus para Cidades Pequenas</h1>
+    <h1>App de Ônibus para Cidades Pequenas</h1>
 
-    <section>
-      <h2>🧨 Problema</h2>
-      <p>Moradores do Paraná perdem tempo e enfrentam ônibus superlotados por falta de informações confiáveis sobre horários, rotas e ocupação.</p>
-    </section>
+    <div class="accordion">
+      <button class="accordion-btn">Problema</button>
+      <div class="accordion-content">
+        <p>Moradores do Paraná perdem tempo e enfrentam ônibus superlotados por falta de informações confiáveis sobre horários, rotas e ocupação.</p>
+      </div>
 
-    <section>
-      <h2>🎯 Objetivos</h2>
-      <ul>
-        <li>Previsibilidade e conforto</li>
-        <li>Reduzir superlotação</li>
-        <li>Dados para decisões rápidas</li>
-      </ul>
-    </section>
+      <button class="accordion-btn">Solução</button>
+      <div class="accordion-content">
+        <ul>
+          <li>Previsibilidade e conforto</li>
+          <li>Redução da superlotação</li>
+          <li>Dados para decisões rápidas</li>
+        </ul>
+      </div>
 
-    <section>
-      <h2>💰 Receita</h2>
-      <ul>
-        <li>Parceria com prefeituras/órgãos de transporte</li>
-        <li>Publicidade local dentro do app</li>
-        <li>Plano premium</li>
-        <li>Relatórios e dados para empresas</li>
-      </ul>
-    </section>
+      <button class="accordion-btn">Rentabilidade</button>
+      <div class="accordion-content">
+        <ul>
+          <li>Parcerias com prefeituras e órgãos de transporte</li>
+          <li>Publicidade local dentro do app</li>
+          <li>Plano premium para usuários</li>
+          <li>Relatórios e dados para empresas</li>
+        </ul>
+      </div>
 
-    <section>
-      <h2>⚙️ Funcionalidades</h2>
-      <ul>
-        <li>Horários em tempo real</li>
-        <li>Mapa interativo</li>
-        <li>Lotação colaborativa</li>
-        <li>Alertas</li>
-        <li>Painel da prefeitura</li>
-        <li>Carteirinha digital</li>
-        <li>Recarga via Pix/QR Code</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>🏁 Principal Concorrente</h2>
-      <p>Apps como <strong>Te Levo Mobile</strong> e <strong>Carsul</strong> já atuam em cidades pequenas, oferecendo soluções de mobilidade urbana.</p>
-    </section>
+      <button class="accordion-btn">Concorrentes</button>
+      <div class="accordion-content">
+        <p>Apps como <strong>Te Levo Mobile</strong> e <strong>Carsul</strong> já atuam em cidades pequenas, oferecendo soluções de mobilidade urbana.</p>
+      </div>
+    </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
