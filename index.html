@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ideia: App de Ônibus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Projeto: App de Ônibus para Cidades Pequenas</h1>
+
+    <div class="section">
+      <label for="problema">🧨 Problema:</label>
+      <textarea id="problema" placeholder="Descreva o problema que o app resolve..."></textarea>
+    </div>
+
+    <div class="section">
+      <label for="solucao">💡 Solução:</label>
+      <textarea id="solucao" placeholder="Como o app resolve esse problema?"></textarea>
+    </div>
+
+    <div class="section">
+      <label for="rentabilidade">💰 Rentabilidade:</label>
+      <textarea id="rentabilidade" placeholder="Como o app pode gerar receita?"></textarea>
+    </div>
+
+    <div class="section">
+      <label for="concorrentes">⚔️ Concorrentes:</label>
+      <textarea id="concorrentes" placeholder="Quais apps ou serviços já existem?"></textarea>
+    </div>
+
+    <button onclick="salvarIdeia()">Salvar Ideia</button>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
