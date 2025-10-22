@@ -121,3 +121,32 @@ thead {
 tbody tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+.tag-quadro {
+  background-color: #d6ecf9;
+  padding: 25px;
+  border-left: 5px solid #87ceeb;
+  border-radius: 8px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.tag-quadro h2 {
+  margin-bottom: 10px;
+  color: #087ceeb;
+}
+
+.botao-tag {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #87ceeb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-tag:hover {
+  background-color: #6bb7d6;
+}
